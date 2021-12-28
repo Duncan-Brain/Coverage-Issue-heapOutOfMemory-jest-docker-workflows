@@ -1,4 +1,4 @@
-name: Test
+name: Test memory error
 
 on:
   workflow_dispatch:
