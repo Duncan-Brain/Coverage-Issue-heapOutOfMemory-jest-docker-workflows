@@ -1,2 +1,2 @@
-# Coverage-Issue-heapOutOfMemory-jest-docker-workflows
-Issue while testing with Jest with coverage option
+# Coverage Issue: heapOutOfMemory 
+While being used with jest --coverage on Docker with workflows.
