@@ -12,5 +12,6 @@ jobs:
 
       - name: Build And Test Frontend
         run: |
+          cd frontend
           npm ci
           npm run test
