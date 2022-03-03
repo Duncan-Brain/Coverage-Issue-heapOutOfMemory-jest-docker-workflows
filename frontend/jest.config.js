@@ -14,7 +14,7 @@ module.exports = {
     '!**/node_modules/**',
   ],
   coverageProvider: 'v8',
-  ignoreCoveragePathPatterns: ['/opt/'],
+  coveragePathIgnorePatterns: ['/opt/'],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
     // https://jestjs.io/docs/webpack#mocking-css-modules
