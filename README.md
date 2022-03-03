@@ -30,4 +30,5 @@ Solution C: Add `ignoreCoveragePathPatterns: ['/opt/']` in jest.config.js.
 
 REF
 [Issue 5837 on Jest](https://github.com/facebook/jest/issues/5837)
+
 [Issue 9980 on Jest](https://github.com/facebook/jest/issues/9980)
