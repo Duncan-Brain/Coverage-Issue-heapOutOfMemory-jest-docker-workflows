@@ -13,6 +13,7 @@ module.exports = {
     '!**/*.d.ts',
     '!**/node_modules/**',
   ],
+  coverageProvider: 'v8',
   ignoreCoveragePathPatterns: ['/opt/'],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
