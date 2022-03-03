@@ -26,7 +26,7 @@ Solution A: Do not use Docker at all for running jest tests, just use npm on wor
 
 Solution B:  Keep using docker but use a working directory `WORKDIR '/app'` in your dockerfile and then reference it in jest.config.js `roots: ['../', '/app']`.
 
-Solution C: Add `ignoreCoveragePathPatterns: ['/opt/']` in jest.config.js.
+Solution C: Add `coveragePathIgnorePatterns: ['/opt/']` in jest.config.js.
 
 REF
 [Issue 5837 on Jest](https://github.com/facebook/jest/issues/5837)
