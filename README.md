@@ -2,15 +2,24 @@
 While being used with jest --coverage on Docker with workflows.
 
 ## Branches:
-Main - Original Heap Out of Memory Error
+### Main
+Workflow: test-memoryError => Original Heap Out of Memory Error
 
-v8-coverage-error - Provides better error messaging
+Workflow: test-works => See solution A below
+### v8-coverage-error
+Provides better error messaging
 
-solution-a - See solution A below
+Workflow: test-memoryError => /opt/ folder culprit visible
 
-solution-b - See solution B below
+### solution-b
+See solution B below
 
-solution-c - See solution C below
+Workflow: test-memoryError => Now working
+
+### solution-c
+See solution C below
+
+Workflow: test-memoryError => Now working
 
 ## Solutions
 Solution A: Do not use Docker at all for running jest tests, just use npm on workflows. Docker is unecessary for me here and I missed this obvious fix.
